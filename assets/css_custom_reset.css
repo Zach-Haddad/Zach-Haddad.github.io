@@ -1,0 +1,18 @@
+html, head, title,
+body, h2, header, img,
+ul, ol, li, nav, aside, p,
+figure, figcaption, form, input,
+label, section, footer {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+
+input[type="radio"], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
