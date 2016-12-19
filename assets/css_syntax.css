@@ -21,6 +21,7 @@ ol li {
 
 header > img {
   width: 100px;
+  float: left;
 }
 
 ul li a {
@@ -53,7 +54,7 @@ input[type="radio"] {
 }
 
 nav {
-  display: inline-block;
+  float: right;
 }
 
 nav ul li {
