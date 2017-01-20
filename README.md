@@ -12,6 +12,8 @@
 [trello]: https://trello.com/fullstackzachhaddad
 [trekmates]: https://trekmates.club
 
+![Alt_Text](http://res.cloudinary.com/zach/image/upload/v1484956203/Screen_Shot_2017-01-20_at_3.49.24_PM_jlj9zq.png)
+
 TrekMates is a web application for endurance athletes, inspired by Meetup and built using Ruby on Rails and React/Redux.  In its current state, users have the ability to create groups, join and leave groups, and create and RSVP for events.  The ultimate goal for this project is to allow users to be matched with groups and other users based on their running and cycling preferences and weekly schedules!
 
 ## Features & Implementation
