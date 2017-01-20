@@ -2,14 +2,14 @@
 
 #TrekMates
 
-[domain link][trekmates.club]
+[Trekmates.club link][trekmates]
 [Heroku link][heroku]
 
 [Trello link][trello]
 
 [heroku]: http://trekmates.herokuapp.com/
 [trello]: https://trello.com/fullstackzachhaddad
-[domain]: https://trekmates.club
+[trekmates]: https://trekmates.club
 
 TrekMates is a web application for endurance athletes, inspired by Meetup and built using Ruby on Rails and React/Redux.  In its current state, users have the ability to create groups, join and leave groups, and create and RSVP for events.  The ultimate goal for this project is to allow users to be matched with groups and other users based on their running and cycling preferences and weekly schedules!
 
