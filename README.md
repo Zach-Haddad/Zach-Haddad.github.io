@@ -2,7 +2,7 @@
 
 #TrekMates
 
-[Trekmates.club link][trekmates]
+[Trekmates.club][trekmates]
 [Heroku link][heroku]
 
 [Trello link][trello]
