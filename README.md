@@ -2,7 +2,7 @@
 
 #TrekMates
 
-[domain][trekmates.club]
+[domain link][trekmates.club]
 [Heroku link][heroku]
 
 [Trello link][trello]
