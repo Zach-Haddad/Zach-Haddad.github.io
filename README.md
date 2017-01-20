@@ -19,7 +19,7 @@ TrekMates is a web application for endurance athletes, inspired by Meetup and bu
 ## Features & Implementation
 
 ### User Signup and Authentication
-Front-end authentication has been implemented utilizing the bcrypt hashing function.  Usernames are unique.  Account creation is a simple one step process at this time, accepting a username and a password. 
+Front-end authentication has been implemented utilizing the bcrypt hashing function.  Usernames are unique.  Account creation is a simple one step process at this time, accepting a username and a password. A simple demo login has been provided.
 
 ### Creating and Joining Groups
 Users have the ability to join any group.  Group creators have the ability to delete their group.  Group membership is automatically generated once a user creates a group.
