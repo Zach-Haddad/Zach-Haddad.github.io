@@ -2817,6 +2817,21 @@
 
 			}
 
+  .strava-icon img{
+    height: 45px;
+    width: 45px;
+    opacity: 0.6;
+    vertical-align: bottom;
+  }
+
+  .strava-icon img:hover{
+    opacity: 1;
+  }
+
+  .strava-icon{
+    margin-top: 200px;
+  }
+
 		ul.contact {
 			list-style: none;
 			padding: 0;
