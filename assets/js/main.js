@@ -161,6 +161,12 @@
 
 				});
 
+        $(".icons li").hide();
+
+        $(".icons li").each(function(index) {
+          $(this).delay(2000);
+          $(this).delay(800*index).fadeIn(3000);
+        });
 	});
 
 })(jQuery);

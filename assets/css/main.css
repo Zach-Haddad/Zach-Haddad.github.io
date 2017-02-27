@@ -1624,7 +1624,7 @@
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -1703,7 +1703,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #ffffff;
 		}
 
 		a.special:not(.button) {
@@ -2250,24 +2250,62 @@
 					padding-top: 0;
 				}
 
-		ul.icons {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
+    ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    }
 
-			ul.icons li {
-				display: inline-block;
-				padding: 0 1em 0 0;
-			}
+    .icons {
+      min-height: 80px;
+    }
 
-				ul.icons li:last-child {
-					padding-right: 0;
-				}
+    ul.icons li {
+    display: inline-block;
+    padding: 0 0.75em 0 0;
+    }
 
-				ul.icons li .icon:before {
-					font-size: 1.25em;
-				}
+    ul.icons li:last-child {
+    padding-right: 0;
+    }
+
+    ul.icons li > a, ul.icons li > span {
+    border: 0;
+    text-decoration: none;
+    }
+
+    ul.icons li > a:before, ul.icons li > span:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+    }
+
+    ul.icons li > a .label, ul.icons li > span .label {
+    display: none;
+    }
+
+    ul.icons li a{
+      opacity: 0.6;
+    }
+
+
+    .strava-icon img{
+    height: 47px;
+    width: 47px;
+    margin-left: -6px;
+    vertical-align: bottom;
+    }
+
+    .strava-icon img:hover, .icons li a:hover{
+    opacity: 1;
+    }
+
+    .strava-icon{
+    margin-top: 200px;
+    }
 
 		ul.actions {
 			cursor: default;
@@ -3113,12 +3151,17 @@
 			text-transform: uppercase;
 		}
 
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3228,7 +3271,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3620,7 +3663,7 @@
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
