@@ -3744,3 +3744,10 @@
 		}
 
 	}
+
+.copyright{
+  opacity: 0.6;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+}
