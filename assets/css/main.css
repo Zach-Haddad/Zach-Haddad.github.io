@@ -2291,6 +2291,10 @@
       opacity: 0.6;
     }
 
+    .icons li{
+      margin-right: 10px;
+    }
+
 
     .strava-icon img{
     height: 47px;
