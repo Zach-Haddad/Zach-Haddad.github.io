@@ -1691,6 +1691,15 @@
 
 		}
 
+
+  .portrait{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    opacity: 0.7;
+    border: 5px solid white;
+  }
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -2163,7 +2172,8 @@
 
 	.image {
 		border-radius: 5px;
-		border: 0;
+		border: 3px solid white;
+    opacity: 0.8;
 		display: inline-block;
 		position: relative;
 	}
@@ -2212,6 +2222,11 @@
 			.image.main img {
 				width: 100%;
 			}
+
+      .image:hover{
+        opacity: 1;
+        border: 3px solid white;
+      }
 
 /* List */
 
@@ -2292,7 +2307,7 @@
     }
 
     .icons li{
-      margin-right: 10px;
+      margin-right: 5px;
     }
 
 
@@ -3148,11 +3163,13 @@
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 1.3em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+      margin-bottom: -0.05em;
+      margin-top: -1em;
 		}
 
     @keyframes fadeIn {
@@ -3162,14 +3179,16 @@
 
 		@media screen and (max-width: 1280px) {
 
-			#banner {
+			/*#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
-			}
+			}*/
+
+      /*use above for separate banner image*/
 
 		}
 
@@ -3665,14 +3684,16 @@
 
 	@media screen and (max-width: 1280px) {
 
-		#footer {
+		/*#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background.png");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/background2.png");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
-		}
+		}*/
+
+    /*use above for separate footer image, keep single pic on body for now*/
 
 	}
 
