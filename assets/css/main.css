@@ -3622,6 +3622,19 @@
 
 /* Footer */
 
+  #email{
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    color: lightgrey;
+  }
+
+  #email:hover{
+    color: white;
+  }
+
+
+
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;

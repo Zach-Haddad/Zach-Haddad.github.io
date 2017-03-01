@@ -165,7 +165,7 @@
 
         $(".icons li").each(function(index) {
           $(this).delay(1500);
-          $(this).delay(400*index).fadeIn(1000);
+          $(this).delay(100*index).fadeIn(1000);
         });
 	});
 
